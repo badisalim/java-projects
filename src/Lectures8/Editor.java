@@ -1,0 +1,20 @@
+package Lectures8;
+
+import Lectures4.Article;
+
+public class Editor {
+
+
+    public Magazine writeMagazine(){
+        Magazine magazine = new Magazine("First Magazine");
+
+        magazine.add(new Article("Article 1", "Text 1"));
+        magazine.add(new Article("Article 2", "Text 2"));
+        magazine.add(new Article("Article 3", "Text 3"));
+
+        return magazine;
+
+
+
+    }
+}
