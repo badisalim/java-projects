@@ -1,4 +1,4 @@
-package Lectures10;
+package LetterPostman;
 
 public class PostOfficeAssistant {
 

@@ -1,4 +1,4 @@
-package week2.ReverseNum;
+package week2.ReverseNumInArray;
 
 import java.util.ArrayList;
 import java.util.List;

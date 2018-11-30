@@ -1,4 +1,4 @@
-package Lectures3;
+package HikersHike;
 
 public class Hiker {
 

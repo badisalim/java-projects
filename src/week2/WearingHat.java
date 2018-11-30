@@ -1,6 +1,6 @@
 package week2;
-import Lectures1.Kid;
-import Lectures2.Book;
+
+import week2.MagnetCalculator.CalculatorMagnet;
 
 import java.util.Scanner;
 

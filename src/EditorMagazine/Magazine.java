@@ -1,6 +1,6 @@
-package Lectures8;
+package EditorMagazine;
 
-import Lectures4.Article;
+import ArticlePrinter.Article;
 
 import java.util.ArrayList;
 import java.util.List;

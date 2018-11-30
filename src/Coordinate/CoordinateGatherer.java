@@ -1,4 +1,4 @@
-package Lectures15;
+package Coordinate;
 
 import java.util.Scanner;
 

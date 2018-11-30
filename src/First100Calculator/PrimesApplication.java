@@ -1,4 +1,4 @@
-package Lectures16;
+package First100Calculator;
 
 public class PrimesApplication {
 

@@ -1,4 +1,4 @@
-package week2.Lectures44;
+package Cloth;
 
     public class WardrobeApplication {
 

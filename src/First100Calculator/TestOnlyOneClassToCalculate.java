@@ -1,4 +1,4 @@
-package Lectures16;
+package First100Calculator;
 
 public class TestOnlyOneClassToCalculate {
 
@@ -10,7 +10,7 @@ public class TestOnlyOneClassToCalculate {
             int ctr = 0;
             int num = 0;
 
-            while (ctr < 100) {
+            while (ctr < 120) {
                 num++;
                 if (num % 2 != 0) {
                     // check if the number is even
@@ -20,7 +20,8 @@ public class TestOnlyOneClassToCalculate {
                     }
                 }
             }
-            System.out.println("\nSum of the first 100 prime numbers is: "+sum);
+            System.out.println("\nSum of the first 100 prime numbers is: "+sum+"  "+sum/120);
+
         }
 
         public static boolean is_Prime(int num) {

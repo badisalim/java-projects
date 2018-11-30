@@ -1,5 +1,7 @@
 package week2;
 
+import week2.MagnetCalculator.CalculatorMagnet;
+
 import java.util.ArrayList;
 import java.util.List;
 

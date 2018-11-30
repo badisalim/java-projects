@@ -1,4 +1,4 @@
-package Lectures13;
+package MealMenu;
 
 import java.util.ArrayList;
 import java.util.List;

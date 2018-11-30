@@ -1,4 +1,4 @@
-package Lectures19;
+package NumMirror;
 import java.util.Scanner;
 
 public class NumberMirrorApplication {

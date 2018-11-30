@@ -1,4 +1,4 @@
-package Lectures17;
+package InsuranceTemplate;
 
 import Screen.Customer;
 import org.junit.jupiter.api.Test;

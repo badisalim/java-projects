@@ -1,4 +1,4 @@
-package Lectures12;
+package HikingBoot;
 
 public class HikingBoot {
 

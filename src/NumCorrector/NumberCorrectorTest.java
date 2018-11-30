@@ -1,4 +1,4 @@
-package Lectures18;
+package NumCorrector;
 
 import org.junit.jupiter.api.Test;
 

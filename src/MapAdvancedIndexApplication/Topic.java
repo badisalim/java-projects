@@ -21,7 +21,7 @@ public class Topic {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        AdvancedIndexApplication.Topic that = (AdvancedIndexApplication.Topic) o;
+        Topic that = (Topic) o;
         return Objects.equals(name, that.name);
     }
 

@@ -1,6 +1,6 @@
-package Lectures8;
+package EditorMagazine;
 
-import Lectures4.Printer;
+import ArticlePrinter.Printer;
 
 public class MagazineApplication {
     public static void main(String[] args) {

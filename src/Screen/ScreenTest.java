@@ -1,4 +1,4 @@
-package Lectures11;
+package Screen;
 
 
 import org.junit.jupiter.api.Assertions;

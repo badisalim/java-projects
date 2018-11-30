@@ -15,7 +15,7 @@ public class Encryption {
                 for (int i=0;i<str.length();i++)
                 {
                     char ch=new Character(str.charAt(i));
-                    char ch1=Character.toUpperCase(str.charAt(i));
+                   // char ch1=Character.toUpperCase(str.charAt(i));
                     switch (ch)
                     {
                         case ' ':

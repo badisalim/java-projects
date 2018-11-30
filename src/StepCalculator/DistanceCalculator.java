@@ -1,4 +1,4 @@
-package Lectures14;
+package StepCalculator;
 
 public class DistanceCalculator {
 

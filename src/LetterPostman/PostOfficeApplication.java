@@ -1,4 +1,4 @@
-package Lectures10;
+package LetterPostman;
 
 import java.util.ArrayList;
 import java.util.List;

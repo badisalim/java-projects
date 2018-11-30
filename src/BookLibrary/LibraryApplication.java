@@ -1,4 +1,4 @@
-package Lectures2;
+package BookLibrary;
 
 public class LibraryApplication {
 

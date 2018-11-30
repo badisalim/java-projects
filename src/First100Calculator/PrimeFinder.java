@@ -1,4 +1,4 @@
-package Lectures16;
+package First100Calculator;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

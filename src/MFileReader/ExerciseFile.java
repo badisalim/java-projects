@@ -5,7 +5,7 @@ import MFileReader.Participant;
 
 import java.util.*;
 import java.util.*;
-public class ExerFile {
+public class ExerciseFile {
 
         public static void main(String[] args) {
             FileReader reader = new FileReader();

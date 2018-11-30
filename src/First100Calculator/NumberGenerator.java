@@ -1,4 +1,4 @@
-package Lectures16;
+package First100Calculator;
 
 import java.util.ArrayList;
 import java.util.List;

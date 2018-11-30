@@ -1,6 +1,4 @@
-package Lectures11;
-
-import java.util.Locale;
+package Screen;
 
 public class Customer {
 

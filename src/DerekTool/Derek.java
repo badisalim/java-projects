@@ -1,4 +1,4 @@
-package Lectures6;
+package DerekTool;
 
 public class Derek {
     private Tool tool;

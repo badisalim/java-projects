@@ -1,4 +1,8 @@
-import java.util.*;
+package week2;
+
+import java.util.ArrayList;
+import java.util.List;
+
 //import java.util.Scanner;
 //import java.util.ArrayList;
 public class RemoveDublicatNoFromCollection {

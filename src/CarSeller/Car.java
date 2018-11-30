@@ -1,4 +1,4 @@
-package Lectures7;
+package CarSeller;
 
 public class Car {
 

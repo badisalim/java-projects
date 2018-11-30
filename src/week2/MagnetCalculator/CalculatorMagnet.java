@@ -1,4 +1,4 @@
-package MagnetCalculator;
+package week2.MagnetCalculator;
 
 import java.util.Scanner;
 

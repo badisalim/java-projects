@@ -1,7 +1,4 @@
-package Lectures3;
-
-import java.util.ArrayList;
-import java.util.List;
+package HikersHike;
 
 public class HikeApplication {
 

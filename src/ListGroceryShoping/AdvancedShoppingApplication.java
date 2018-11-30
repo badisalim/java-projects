@@ -1,10 +1,11 @@
-package ListMapeSetOptional;
+package ListGroceryShoping;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class AdvancedShoppingApplication {
+public class
+AdvancedShoppingApplication {
 
     public static void main(String[] args) {
 
@@ -19,16 +20,14 @@ public class AdvancedShoppingApplication {
         groceries.add(bananas);
         groceries.add(orange);
         groceries.add(tomatos);
+        System.out.println(groceries);
 
-
-
-        System.out.println("Groceries: " + groceries);
-        for (int i = 0; i < groceries.size(); i++) {
-            if (Objects.equals(orange, groceries.get(i))) {
-                groceries.remove(i);
-            }
-            System.out.println(groceries);
-        }
+//        for (int i = 0; i < groceries.size(); i++) {
+//            if (Objects.equals(orange,groceries.get(i))) {
+        groceries.remove(orange);
+//            }
+        System.out.println(groceries);
+//        }
 
         groceries.add(orange);
         groceries.add(orange);

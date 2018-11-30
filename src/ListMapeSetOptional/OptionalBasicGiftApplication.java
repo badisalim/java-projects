@@ -1,9 +1,11 @@
 package ListMapeSetOptional;
 
+import sun.awt.SunHints;
+
 import java.util.Optional;
 import java.util.Random;
 
-public class BasicGiftApplication {
+public class OptionalBasicGiftApplication {
 
 
     public static void main(String[] args) {
@@ -40,5 +42,8 @@ public class BasicGiftApplication {
             Random random = new Random();
             return random.nextBoolean();
                // System.out.println(Random);
+
+       // System.out.println("the gift is"+ getGift(""));
+
     }
 }

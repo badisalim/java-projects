@@ -1,7 +1,6 @@
-package Lectures1;
+package KidCandies;
 
-import Lectures10.Letter;
-import Lectures10.PostOfficeAssistant;
+import LetterPostman.Letter;
 
 import java.util.List;
 
@@ -15,6 +14,8 @@ public class HalloweenApplication {
         // Halloween Judge - say who is the winner
 
         Journalist journalist = new Journalist();
+
+
         //List<Kid> kids = journalist.getNeighborhoodKids();
         List<Kid> kids = new Journalist().getNeighborhoodKids();
         for (Kid kid :

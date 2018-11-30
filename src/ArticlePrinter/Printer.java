@@ -1,6 +1,6 @@
-package Lectures4;
+package ArticlePrinter;
 
-import Lectures8.Magazine;
+import EditorMagazine.Magazine;
 
 public class Printer {
 
@@ -13,8 +13,7 @@ public class Printer {
     public void printMagazine(Magazine magazine) {
         System.out.println(magazine.getName());
         // define list of articles and print every single one out .getArticles()
-        for (Article article :
-                magazine.getArticles()) {
+        for (Article article : magazine.getArticles()) {
             System.out.println(article.getGetTitle() + " " + article.getGetText());
 
         }

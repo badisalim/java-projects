@@ -1,4 +1,4 @@
-package Lectures15;
+package Coordinate;
 
 public class Coordinate {
 

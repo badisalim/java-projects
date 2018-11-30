@@ -3,47 +3,46 @@ package ListMapeSetOptional;
 import java.util.HashSet;
 import java.util.Set;
 
-public class BasicBackpackApplication {
+public class SetBasicBackpackApplication {
     public static void main(String[] args) {
 
 
         Set<String> backpack = new HashSet<>();
+        System.out.println("Backpack: "+backpack);
+        String toothPast = "ToothPast";
+        String phom = new String("Phom");
+        String raiser = "Raiser";
 
-        String eggs = "Eggs";
-        String bacon = "Bacon";
-        String coffee = "Coffee";
 
+        backpack.add(toothPast);
+        backpack.add(phom);
+        backpack.add(raiser);
 
-        backpack.add(eggs);
-        backpack.add(bacon);
-        backpack.add(coffee);
+        System.out.println("\n" +"Backpack: "+ backpack);
 
-        System.out.println("\n" + backpack);
+        boolean containsToothPast = backpack.contains(toothPast);
 
-        boolean containsEggs = backpack.contains(eggs);
-
-        System.out.println("Is Eggs there? : " + containsEggs);
+        System.out.println("Is ToothPas there? : " + containsToothPast);
 
         for (String string : backpack) {
-
         }
-        System.out.println(backpack);
         //Print out the list
+        backpack.remove(phom);
 
-            backpack.remove(coffee);
-            System.out.println("\n" + backpack);
+            System.out.println("\n" +"Backpack: "+ backpack);
 
-        boolean containsCoffee = backpack.contains(coffee);
+        boolean containsPhom = backpack.contains("phom");
 
-        System.out.println("Is Coffee there? : " + containsCoffee);
+       // System.out.println("Is phom there? : " + containsPhom);
+        if (!containsPhom){
+        //System.out.println("Is phom there? : " + containsPhom);
+        System.out.println("Backpack: "+backpack);}
 
-
-        System.out.println(backpack);
-
-        backpack.add(eggs);
-        backpack.add(coffee);
+        backpack.add(phom);
+        backpack.add(phom);
        //s System.out.println("\n" + backpack);
-        System.out.println(backpack);
+        System.out.println("Backpack: "+backpack);
+
         int size=backpack.size();
 
         System.out.println(size);

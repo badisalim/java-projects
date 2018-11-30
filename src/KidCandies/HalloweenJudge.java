@@ -1,4 +1,4 @@
-package Lectures1;
+package KidCandies;
 
 import java.util.List;
 

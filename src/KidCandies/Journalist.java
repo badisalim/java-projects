@@ -1,6 +1,4 @@
-package Lectures1;
-
-import Lectures10.Letter;
+package KidCandies;
 
 import java.util.ArrayList;
 import java.util.List;

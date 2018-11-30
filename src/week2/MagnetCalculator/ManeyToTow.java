@@ -1,6 +1,5 @@
-package MagnetCalculator;
+package week2.MagnetCalculator;
 
-import MagnetCalculator.CalculatorMagnet;
 import week2.InsistantCalculatorMagnet;
 
 public class ManeyToTow {

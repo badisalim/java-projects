@@ -1,8 +1,7 @@
-package Lectures1;
+package KidCandies;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class Kid {
 
@@ -10,6 +9,7 @@ public class Kid {
     private Integer numberOfCandies;
     private List<String> namesOfCandies = new ArrayList<>();
     private List<Integer> numbersOfCandies = new ArrayList<>();
+    private String address;
     private Boolean stamped = false;
 
     public Kid(String name, Integer numberOfCandies, List<String> namesOfCandies,List<Integer>numbersOfCandies) {
@@ -17,8 +17,8 @@ public class Kid {
         this.numberOfCandies = numberOfCandies;
         this.namesOfCandies = namesOfCandies;
         this.numbersOfCandies = numbersOfCandies;
+        this.address=address;
     }
-
     public void stamp() {
         stamped = true;
 
@@ -32,7 +32,11 @@ public class Kid {
     }
     public List<String> getNamesOfCandies() { return namesOfCandies; }
     public List<Integer> getNumbersOfCandies() { return numbersOfCandies; }
+    public String getAddress() { return address;}
     public Boolean isStamped() { return stamped; }
 
-}
+
+    }
+
+
 

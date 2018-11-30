@@ -1,4 +1,4 @@
-package Lectures4;
+package ArticlePrinter;
 
 public class Article {
 

@@ -1,4 +1,6 @@
 package week2;
+import week2.MagnetCalculator.CalculatorMagnet;
+
 import java.util.Scanner;
 
 public class InsistantCalculatorMagnet {

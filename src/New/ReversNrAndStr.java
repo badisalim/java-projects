@@ -1,22 +1,21 @@
-package TestGit;
+package New;
 
 public class ReversNrAndStr {
 
-    private String str0;
-    private Integer num0;
+    private String strin;
+    private Integer numr;
 
-    public ReversNrAndStr(Integer num0) {
-        this.num0 = num0;
+    public ReversNrAndStr(String strin0,Integer numr0) {
+        this.strin = strin0;
+        this.numr = numr0;
     }
 
-    public ReversNrAndStr(String str0) {
-        this.str0 = str0;
-    }
     public Integer getNumber() {
-        return num0;
+        return numr;
     }
+
     public String getString() {
-        return str0;
+        return strin;
     }
 
 

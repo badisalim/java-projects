@@ -1,8 +1,9 @@
-
+package week2;
 
 //import java.util.Scanner;
 //import java.util.*;
 import java.util.Scanner;
+
 //import java.util.ArrayList;
 public class RemoveDublicatNoFromArray {
 
@@ -10,6 +11,7 @@ public class RemoveDublicatNoFromArray {
     public static void main(String[] args){
         /* Array instantiation */
         int[] arr_elements = new int[20];
+        String[] arr_elements2=new String[20];
 
 		/* initial_element variable initialize by 0 and
 		point to the first element of the array */

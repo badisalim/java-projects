@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class BasicIndexApplication {
+public class MapBasicIndexApplication {
 
     public static void main(String[] args) {
 
@@ -25,9 +25,9 @@ public class BasicIndexApplication {
         String topic2="Math";
         String topic1="Phesics";
 
-        Book.put(3,topic1);
-        Book.put(2,topic2);
-        Book.put(1,topic3);
+        Book.put(page1,topic1);
+        Book.put(page2,topic2);
+        Book.put(page3,topic3);
         System.out.println(Book);
 
 //        Collection<String> bookPages = Book.values();
@@ -41,10 +41,10 @@ public class BasicIndexApplication {
         System.out.println(Book.keySet());
 
          String newTopic="new topic";
-Book.put(2,newTopic);
+         Book.put(2,newTopic);
         System.out.println(Book);
 
-        boolean containsPage2 = Book.containsKey(2);
+        boolean containsPage2 = Book.containsKey(page2);
 
         System.out.println("Is Page 2 there? : " + containsPage2);
 

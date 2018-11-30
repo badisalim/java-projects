@@ -1,4 +1,4 @@
-package Lectures6;
+package DerekTool;
 
 public class paintingApplication {
     public static void main(String[] args) {

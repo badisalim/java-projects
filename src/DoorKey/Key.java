@@ -1,4 +1,4 @@
-package Lectures5;
+package DoorKey;
 
 public class Key {
 

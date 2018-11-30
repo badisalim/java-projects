@@ -1,6 +1,8 @@
 package ListTripBackPack;
 
-public class ItemClass {
+import java.util.Objects;
+
+public class Item {
 
     private String name;
 
@@ -10,14 +12,26 @@ public class ItemClass {
 
     @Override
     public String toString() {
-        return "ItemClass{" +
+        return "Item{" +
                 "name='" + name + '\'' +
                 '}';
     }
 
-    public ItemClass(String name) {
+    public Item(String name) {
         this.name = name;
 
+    }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Item item = (Item) o;
+        return Objects.equals(name, item.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name);
     }
 }

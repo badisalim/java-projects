@@ -1,4 +1,6 @@
-package ListMapeSetOptional;
+package ListGroceryShoping;
+
+import java.util.Objects;
 
 public class GroceryClass {
 
@@ -19,4 +21,14 @@ public class GroceryClass {
 
     }
 
-}
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this == o) return true;
+//        if (o == null || getClass() != o.getClass()) return false;
+//        GroceryClass that = (GroceryClass) o;
+//        return Objects.equals(name, that.name);
+    }
+
+
+
+

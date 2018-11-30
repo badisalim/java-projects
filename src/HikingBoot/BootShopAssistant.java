@@ -1,4 +1,4 @@
-package Lectures12;
+package HikingBoot;
 
 import java.util.ArrayList;
 import java.util.Collections;
