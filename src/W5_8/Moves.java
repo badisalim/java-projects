@@ -1,19 +1,13 @@
-package exercise.week5.ex7;
+package exercise.week5.ex8;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 public class Moves {
 
-    private static List<Move> moves = Arrays.asList(
+    private static Set<Move> moves = new HashSet<>(Arrays.asList(
             new Rock(), new Scissors(), new Paper()
-    );
+    ));
 
-    public static List<Move> asList() {
-        return new ArrayList<>(moves);
-    }
 
     public static String asString() {
         List<String> names = new ArrayList<>();
@@ -23,12 +17,16 @@ public class Moves {
         return String.join(", ", names);
     }
 
-    public static Optional<Move> get(String name) {
+    public static Optional<Move> get(String moveName) {
         for (Move move : moves) {
-            if (move.getName().equalsIgnoreCase(name)) {
+            if (move.getName().equalsIgnoreCase(moveName)) {
                 return Optional.of(move);
             }
         }
         return Optional.empty();
+    }
+
+    public static List<Move> asList() {
+        return new ArrayList<>(moves);
     }
 }

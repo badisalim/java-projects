@@ -1,6 +1,7 @@
-package exercise.week5.ex7;
+package exercise.week5.ex8;
 
-public class RockScissorsPaperApplication {
+
+public class GameApplication {
 
     public static void main(String[] args) {
         Game game = new Game();
